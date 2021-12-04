@@ -52,6 +52,9 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "view": {
+      "type": "integer"
     }
   }
 }
