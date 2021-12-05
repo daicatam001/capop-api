@@ -1618,6 +1618,9 @@
                                                         "view": {
                                                           "type": "integer"
                                                         },
+                                                        "in_stock": {
+                                                          "type": "boolean"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -1988,6 +1991,9 @@
                               },
                               "view": {
                                 "type": "integer"
+                              },
+                              "in_stock": {
+                                "type": "boolean"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -3916,6 +3922,9 @@
                                                       "view": {
                                                         "type": "integer"
                                                       },
+                                                      "in_stock": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -4287,6 +4296,9 @@
                             "view": {
                               "type": "integer"
                             },
+                            "in_stock": {
+                              "type": "boolean"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -4560,6 +4572,9 @@
                       },
                       "view": {
                         "type": "integer"
+                      },
+                      "in_stock": {
+                        "type": "boolean"
                       },
                       "createdAt": {
                         "type": "string",
@@ -6220,6 +6235,9 @@
                                                       "view": {
                                                         "type": "integer"
                                                       },
+                                                      "in_stock": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -6590,6 +6608,9 @@
                             },
                             "view": {
                               "type": "integer"
+                            },
+                            "in_stock": {
+                              "type": "boolean"
                             },
                             "createdAt": {
                               "type": "string",
@@ -8427,6 +8448,9 @@
                                                       "view": {
                                                         "type": "integer"
                                                       },
+                                                      "in_stock": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -8798,6 +8822,9 @@
                             "view": {
                               "type": "integer"
                             },
+                            "in_stock": {
+                              "type": "boolean"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -9082,6 +9109,9 @@
                       },
                       "view": {
                         "type": "integer"
+                      },
+                      "in_stock": {
+                        "type": "boolean"
                       },
                       "createdAt": {
                         "type": "string",

@@ -55,6 +55,10 @@
     },
     "view": {
       "type": "integer"
+    },
+    "in_stock": {
+      "type": "boolean",
+      "default": true
     }
   }
 }

@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2021-12-05T08:02:56.099Z"
+    "x-generation-date": "2021-12-05T14:09:47.691Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -924,6 +924,9 @@
                                                         },
                                                         "view": {
                                                           "type": "integer"
+                                                        },
+                                                        "in_stock": {
+                                                          "type": "boolean"
                                                         },
                                                         "createdAt": {
                                                           "type": "string",
@@ -2505,6 +2508,9 @@
                                                       "view": {
                                                         "type": "integer"
                                                       },
+                                                      "in_stock": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -4079,6 +4085,9 @@
                                                       "view": {
                                                         "type": "integer"
                                                       },
+                                                      "in_stock": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -5567,6 +5576,9 @@
                                                       },
                                                       "view": {
                                                         "type": "integer"
+                                                      },
+                                                      "in_stock": {
+                                                        "type": "boolean"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -8073,6 +8085,9 @@
                                                         "view": {
                                                           "type": "integer"
                                                         },
+                                                        "in_stock": {
+                                                          "type": "boolean"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -8443,6 +8458,9 @@
                               },
                               "view": {
                                 "type": "integer"
+                              },
+                              "in_stock": {
+                                "type": "boolean"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -10371,6 +10389,9 @@
                                                       "view": {
                                                         "type": "integer"
                                                       },
+                                                      "in_stock": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -10742,6 +10763,9 @@
                             "view": {
                               "type": "integer"
                             },
+                            "in_stock": {
+                              "type": "boolean"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -11015,6 +11039,9 @@
                       },
                       "view": {
                         "type": "integer"
+                      },
+                      "in_stock": {
+                        "type": "boolean"
                       },
                       "createdAt": {
                         "type": "string",
@@ -12675,6 +12702,9 @@
                                                       "view": {
                                                         "type": "integer"
                                                       },
+                                                      "in_stock": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -13045,6 +13075,9 @@
                             },
                             "view": {
                               "type": "integer"
+                            },
+                            "in_stock": {
+                              "type": "boolean"
                             },
                             "createdAt": {
                               "type": "string",
@@ -14882,6 +14915,9 @@
                                                       "view": {
                                                         "type": "integer"
                                                       },
+                                                      "in_stock": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -15253,6 +15289,9 @@
                             "view": {
                               "type": "integer"
                             },
+                            "in_stock": {
+                              "type": "boolean"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -15537,6 +15576,9 @@
                       },
                       "view": {
                         "type": "integer"
+                      },
+                      "in_stock": {
+                        "type": "boolean"
                       },
                       "createdAt": {
                         "type": "string",
