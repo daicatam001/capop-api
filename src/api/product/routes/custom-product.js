@@ -8,5 +8,13 @@ module.exports = {
         auth: false,
       },
     },
+    {
+      method: "GET",
+      path: "/products/slug/:slug/relative",
+      handler: "product.findRelativeBySlug",
+      config: {
+        auth: false,
+      },
+    },
   ],
 };

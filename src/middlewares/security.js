@@ -33,11 +33,10 @@ module.exports = (config) => (ctx, next) => {
       directives: {
         "script-src": ["'self'", "'unsafe-inline'", "cdn.jsdelivr.net"],
         "img-src": [
-          "*",
           "'self'",
           "data:",
-          "cdn.jsdelivr.net",
-          "strapi.io",
+          "blob:",
+          "http:",
           "https:",
         ],
       },
