@@ -5,6 +5,7 @@
  */
 
 const { createCoreController } = require("@strapi/strapi").factories;
+const { toCurrency } = require("../../../utils/common");
 
 module.exports = createCoreController("api::order.order", ({ strapi }) => ({
   async placeOrder(ctx) {
@@ -42,9 +43,13 @@ module.exports = createCoreController("api::order.order", ({ strapi }) => ({
 }));
 
 const orderDetail = (orderItems, customer, total) => {
-  const orderTemp = orderItems.map((item,index) => {
-    return `${index+1}. ${item.product.title}  x ${item.quantity}\n\tĐơn giá: ${item.product.price}`;
-  }).join(`\n`);
-  const customerTemp =`Họ tên: ${customer.name}\nSố điện thoại: ${customer.phone}\nĐịa chỉ: ${customer.address}` 
-  return `Thông tin đơn hàng\n${orderTemp}\n\nTổng tiền: ${total}\n\nThông tin khách hàng\n${customerTemp}`;
+  const orderTemp = orderItems
+    .map((item, index) => {
+      return `${index + 1}. ${item.product.title}  x ${
+        item.quantity
+      }\n\tĐơn giá: ${toCurrency(item.product.price)}`;
+    })
+    .join(`\n`);
+  const customerTemp = `Họ tên: ${customer.name}\nSố điện thoại: ${customer.phone}\nĐịa chỉ: ${customer.address}`;
+  return `Thông tin đơn hàng\n${orderTemp}\n\nTổng tiền: ${toCurrency(total)}\n\nThông tin khách hàng\n${customerTemp}`;
 };
